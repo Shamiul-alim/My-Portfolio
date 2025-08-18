@@ -1,0 +1,33 @@
+---
+import '../styles/global.css';
+import Profile from '../components/Profile';
+import Navbar from '@/components/Navbar';
+---
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>My Portfolio</title>
+	</head>
+	<body class="bg-[#000000eb] flex justify-center gap-[1.05rem] pt-[1rem]">
+		<div>
+			<Profile/>
+		</div>
+		<div class="bg-[#23222285] h-[42.5rem] w-[35rem] border-1 border-gray-800 rounded-2xl font-sans ">
+			<Navbar  client:only="react" />
+			<slot />
+		</div> 
+	</body>
+</html>
+
+<style>
+	html,
+	body {
+		margin: 0;
+		width: 100%;
+		height: 100%;
+	}
+</style>
