@@ -1,46 +1,25 @@
-# Astro Starter Kit: Basics
+Shamiul Alim's Portfolio
 
-```sh
-npm create astro@latest -- --template basics
-```
+Welcome to my portfolio! I'm Shamiul Alim, a final-year CSE student at Daffodil International University. I specialize in Full-Stack Development, focusing on building efficient and scalable web applications.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+🌐 Live Portfolio
 
-## 🚀 Project Structure
+View my live portfolio
 
-Inside of your Astro project, you'll see the following folders and files:
+🛠️ Technologies Used
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+Framework: Astro
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+Languages: JavaScript, TypeScript
 
-## 🧞 Commands
+Styling: Tailwind CSS
 
-All commands are run from the root of the project, from a terminal:
+Deployment: Vercel
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+📞 Get in Touch
 
-## 👀 Want to learn more?
+Email: samiulalim01234@gmail.com
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+LinkedIn: Shamiul Alim
+
+GitHub: Shamiul-alim
