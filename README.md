@@ -3,20 +3,20 @@
 Welcome to my portfolio! I'm **Shamiul Alim**, a final-year **CSE** student at **Daffodil International University**. I specialize in **Full-Stack Development**, focusing on building efficient and scalable web applications.
 
 ## 🌐 Live Portfolio  
-[**View my live portfolio**](https://my-portfolio-alpha-ruddy-55.vercel.app/)
+<a href="https://my-portfolio-alpha-ruddy-55.vercel.app/" target="_blank"><strong>View my live portfolio</strong></a>
 
 ## 🛠️ Technologies Used
-- **Framework:** [Astro](https://astro.build/)
+- **Framework:** <a href="https://astro.build/" target="_blank">Astro</a>
 - **Languages:** JavaScript, TypeScript
 - **Styling:** Tailwind CSS
 - **Deployment:** Vercel
 
 ## 📂 Projects
-- **[DriveX](https://github.com/Shamiul-alim/DriveX.git):** Full-stack ride booking platform with Flask, MySQL, and dynamic pricing.
-- **[Survival-Game](https://github.com/Shamiul-alim/Survival-Game.git):** 2D survival game with Q-learning-based AI.
-- **[TextUtils](https://github.com/Shamiul-alim/TextUtils.git):** React-based text manipulation web app.
+- **<a href="https://github.com/Shamiul-alim/DriveX.git" target="_blank">DriveX</a>:** Full-stack ride booking platform with Flask, MySQL, and dynamic pricing.
+- **<a href="https://github.com/Shamiul-alim/Survival-Game.git" target="_blank">Survival-Game</a>:** 2D survival game with Q-learning-based AI.
+- **<a href="https://github.com/Shamiul-alim/TextUtils.git" target="_blank">TextUtils</a>:** React-based text manipulation web app.
 
 ## 📞 Get in Touch  
-- **Email:** [samiulalim01234@gmail.com](mailto:samiulalim01234@gmail.com)  
-- **LinkedIn:** [Shamiul Alim](https://www.linkedin.com/in/shamiul-alim-96bb6b247)  
-- **GitHub:** [Shamiul-alim](https://github.com/Shamiul-alim)
+- **Email:** <a href="mailto:samiulalim01234@gmail.com">samiulalim01234@gmail.com</a>
+- **LinkedIn:** <a href="https://www.linkedin.com/in/shamiul-alim-96bb6b247" target="_blank">Shamiul Alim</a>
+- **GitHub:** <a href="https://github.com/Shamiul-alim" target="_blank">Shamiul-alim</a>
