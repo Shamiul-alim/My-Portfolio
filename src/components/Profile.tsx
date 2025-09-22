@@ -1,5 +1,5 @@
 import React from 'react';
-import Data from '../components/data.json';
+import Data from '../lib/data.json';
 // import { date } from 'astro:schema';
 
 export default function profile() {

@@ -1,0 +1,24 @@
+{
+  "activities": [
+    {
+      "icon":"/fontend.png",
+      "title": "Frontend Development",
+      "description": "High-quality frontend development of sites at a professional level."
+    },
+    {
+        "icon":"/backend.png",
+      "title": "Backend Development",
+      "description": "Professional backend development of applications in JavaScript."
+    },
+    {
+        "icon":"/game.png",
+      "title": "Game Development",
+      "description": "I'm passionate about game development, exploring AI-driven mechanics."
+    },
+    {
+        "icon":"/machine1.png",
+      "title": "Machine Learning",
+      "description": "I enjoy applying machine learning to solve real-world problems."
+    }
+  ]
+}
