@@ -9,7 +9,7 @@ export default function Navbar() {
   const links = [
     { name: "About", path: "/" },
     { name: "Resume", path: "/resume" },
-    { name: "Projects", path: "/projects" },
+    { name: "Projects", path: "/project" },
     { name: "Contact", path: "/contact" }
   ];
   return (

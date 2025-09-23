@@ -12,9 +12,9 @@ export default function Resume() {
     <div className=" pl-[1.4rem] pr-[1.4rem] pt-[1rem] gap-[2rem]  ">
         <h1 className='text-[#ffffffc4] text-[1.3rem] font-bold font-sans'>My Resume</h1>
         <div className='h-[0.2rem] w-[1.8rem] bg-yellow-400 rounded-2xl mt-[0.8rem] mb-[0.8rem]'/>
-        <p className="text-center text-[1rem] text-[#ffffffc4] mt-[12rem] mb-[2rem] ml-[3rem] mr-[3rem]">
+        <p className="text-center text-[1rem] text-[#ffffffc4] mt-[12rem] mb-[2rem] ml-[3rem] mr-[3rem] opacity-70">
             If you're looking for a{" "}
-            <span className="text-yellow-200 font-semibold">passionate developer</span> who thrives in challenging environments, check out my CV. Let's work together to make an impact with technology.
+            <span className="text-yellow-200 font-semibold ">passionate developer</span> who thrives in challenging environments, check out my CV. Let's work together to make an impact with technology.
         </p>
 
       <motion.a

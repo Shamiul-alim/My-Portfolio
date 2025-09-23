@@ -1,8 +1,8 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Project from "../components/Project";
+import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout>
-  <h2>Projects</h2>
-  <p>This is the projects section. Showcase your work, including any relevant project details, links, and technologies used.</p>
+  <Project client:load />
 </Layout>

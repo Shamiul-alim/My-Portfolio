@@ -1,0 +1,19 @@
+{
+  "projects": [
+    {
+      "title": "Text-Util",
+      "description": "TextUtils is a simple React-based text utility app that allows users to analyze and manipulate text.",
+      "link": "https://github.com/Shamiul-alim/TextUtils"
+    },
+    {
+      "title": "Survival-Game",
+      "description": "A 2D top-down survival game where enemies learn from your playstyle using Q-learning.",
+      "link": "https://github.com/Shamiul-alim/Survival-Game"
+    },
+    {
+      "title": "DriveX",
+      "description": "Built a full-stack Flask-based ride booking system with MySQL backend.Integrated interactive route mapping.",
+      "link": "https://github.com/Shamiul-alim/DriveX"
+    }
+  ]
+}
