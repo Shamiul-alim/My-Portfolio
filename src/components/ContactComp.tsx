@@ -10,7 +10,7 @@ export default function ContactComp() {
   const [isPulsing, setIsPulsing] = useState(false);
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
 
-  const handleSubmit = async (event: { preventDefault: () => void; }) => {
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
     const data = {
@@ -178,7 +178,7 @@ export default function ContactComp() {
 
         <button
           className="text-zinc-500 hover:text-yellow-400 backdrop-blur-lg bg-gradient-to-tr from-transparent via-[rgba(121,121,121,0.16)] to-transparent rounded-md py-2 px-6 shadow hover:shadow-yellow-400 duration-700"
-          onClick={handleSubmit}
+          type="submit"
         >
           Send
         </button>
