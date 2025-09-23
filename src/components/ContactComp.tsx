@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { ArrowUpRight } from 'lucide-react';
 import { motion } from "framer-motion";
 import emailjs from 'emailjs-com';
-import contact from "../lib/contact.json";
+import data from "../lib/data.json"
 
 export default function ContactComp() {
     const [isToggled, setIsToggled] = useState(false);
@@ -65,7 +65,7 @@ export default function ContactComp() {
 
             <div className="flex flex-col">
                 <motion.div
-                    className="h-[2rem] w-[4.7rem] rounded-3xl bg-[#333232cf] border-1 border-gray-600 flex justify-start items-center pl-[0.2rem] mt-[2rem] mb-[1rem]"
+                    className="h-[2rem] w-[4.7rem] rounded-3xl bg-[#333232cf] border-1 border-gray-600 flex justify-start items-center pl-[0.2rem] mt-[1.7rem] mb-[1.4rem]"
                     onClick={handleToggle}
                     animate={{
                         backgroundColor: isToggled ? "rgba(60, 70, 81, 1)" : "#333232cf",
@@ -124,26 +124,46 @@ export default function ContactComp() {
                 <p className='text-[0.8rem] opacity-60 font-sans text-[#ffffffc4] '>Have questions or ready to move your <br />business to the next level?</p>
             </div>
 
-            <div className='flex flex-col gap-3 mt-[1rem]'>
-                {contact.contact.map((contact, index) => (
-                    <motion.div
-                        key={index}
+            <div className='flex flex-col mt-[1rem]'>
+                  <motion.div
                         className='flex flex-row items-center rounded-2xl bg-[#403f3f1d] shadow-md shadow-gray-950 w-[32rem] h-[3.5rem] border-2 border-transparent hover:border-yellow-200 cursor-pointer'
                         whileHover={{ scale: 1.03, boxShadow: "0 0 20px rgba(250,204,21,0.7)" }}
                         transition={{ type: "spring", stiffness: 200, damping: 12 }}
                     >
-                        <div className='w-[2.5rem] h-[2.5rem] rounded-[0.5rem] ml-[0.8rem] flex justify-center items-center mr-[2rem]'>
-                            <img src={contact.icon} className='p-2 opacity-70' />
+                      <a href='mailto:samiulalim01234@gmail.com' className='flex flex-row items-center' >
+                        <div className='w-[2.5rem] h-[2.5rem] rounded-[0.5rem] ml-[0.8rem] flex justify-center items-center mr-[1.5rem]'>
+                            <img src={data.emailIcon} className='p-2 opacity-70' />
                         </div>
                         <div className='flex flex-col items-start'>
-                            <h1 className='text-[1rem] opacity-80 font-sans font-bold text-[#ffffffc4]'>{contact.name}</h1>
-                            <p className='text-[0.8rem] opacity-60 font-sans text-[#ffffffc4]'>{contact.description}</p>
+                            <h1 className='text-[1rem] opacity-80 font-sans font-bold text-[#ffffffc4]'>Email</h1>
+                            <p className='text-[0.8rem] opacity-60 font-sans text-[#ffffffc4]'>samiulalim01234@gmail.com</p>
                         </div>
+                        </a>
+                        <div className='ml-auto pr-[1.5rem]'>
+                            <ArrowUpRight className='w-[1.2rem] h-[1.2rem] text-[#ffffffc4] opacity-80 hover:opacity-100' />
+                        </div>
+                      
+                    </motion.div>
+            </div>
+            <div className='flex flex-col mt-[0.5rem]'>
+                  <motion.div
+                        className='flex flex-row items-center rounded-2xl bg-[#403f3f1d] shadow-md shadow-gray-950 w-[32rem] h-[3.5rem] border-2 border-transparent hover:border-yellow-200 cursor-pointer'
+                        whileHover={{ scale: 1.03, boxShadow: "0 0 20px rgba(250,204,21,0.7)" }}
+                        transition={{ type: "spring", stiffness: 200, damping: 12 }}
+                    >
+                      <a href='tel:01757778981' className='flex flex-row items-center' >
+                        <div className='w-[2.5rem] h-[2.5rem] rounded-[0.5rem] ml-[0.8rem] flex justify-center items-center mr-[1.5rem]'>
+                            <img src={data.phoneIcon} className='p-2 opacity-70' />
+                        </div>
+                        <div className='flex flex-col items-start'>
+                            <h1 className='text-[1rem] opacity-80 font-sans font-bold text-[#ffffffc4]'>Phone</h1>
+                            <p className='text-[0.8rem] opacity-60 font-sans text-[#ffffffc4]'>01757778981</p>
+                        </div>
+                        </a>
                         <div className='ml-auto pr-[1.5rem]'>
                             <ArrowUpRight className='w-[1.2rem] h-[1.2rem] text-[#ffffffc4] opacity-80 hover:opacity-100' />
                         </div>
                     </motion.div>
-                ))}
             </div>
 
             {/* Pulsing Effect Triggered by Button Toggle */}
