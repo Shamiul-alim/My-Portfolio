@@ -40,6 +40,7 @@ export default function ContactComp() {
             setTimeout(() => {
                 setIsSent(false);  // Reset after 2 seconds
             }, 2000);
+            form.reset();
         } catch (error) {
             console.error('Error sending email:', error);
             alert('Error sending email. Please try again.');
