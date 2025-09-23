@@ -1,3 +1,4 @@
+"use client";
 import '../styles/global.css';
 import { Star } from "lucide-react";
 import { motion } from "framer-motion";
@@ -6,7 +7,7 @@ import projects from "../lib/project.json";
 export default function ProjectSection() {
   return (
     <div className="pl-[1.4rem] pr-[1.4rem] pt-[1rem] gap-[2rem] ">
-        <h1 className='text-[#ffffffc4] text-[1.3rem] font-bold font-sans'>My Resume</h1>
+        <h1 className='text-[#ffffffc4] text-[1.3rem] font-bold font-sans'>My Project</h1>
         <div className='h-[0.2rem] w-[1.8rem] bg-yellow-400 rounded-2xl mt-[0.8rem] mb-[0.8rem]'/>
       <p className="text-center mt-[3rem] ml-[3rem] mr-[3rem]  text-[#ffffffc4] opacity-70 mb-[2rem] font-sans">
         Here are some of my projects. Click on the cards to visit their GitHub repositories.

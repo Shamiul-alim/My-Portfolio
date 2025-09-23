@@ -1,3 +1,4 @@
+"use client";
 import { useState, type JSX } from "react";
 import activities from "../lib/activity.json";
 import { Boxes, Brain, Monitor, Server } from "lucide-react";

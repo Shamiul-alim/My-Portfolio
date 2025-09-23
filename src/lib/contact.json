@@ -1,0 +1,14 @@
+{
+    "contact" :[
+        {
+            "icon" :"/email.png",
+            "name" : "Email",
+            "description" : "samiulalim01234@gmail.com"
+        },
+        {
+            "icon" :"/phone.jpg",
+            "name" : "Phone",
+            "description" : "01757778981"
+        }
+    ]
+}

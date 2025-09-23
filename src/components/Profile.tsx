@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import Data from '../lib/data.json';
 // import { date } from 'astro:schema';

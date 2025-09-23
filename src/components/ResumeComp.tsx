@@ -2,7 +2,7 @@ import '../styles/global.css';
 import { DownloadIcon, Star } from "lucide-react";
 import { motion } from "framer-motion";
 
-export default function Resume() {
+export default function ResumeComp() {
     const letterVariants = {
     initial: { opacity: 0 },
     animate: { opacity: 1 },
