@@ -10,7 +10,7 @@ export default function ContactComp() {
   const [isPulsing, setIsPulsing] = useState(false);
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
 
-  const handleSubmit = async (event) => {
+  const handleSubmit = async (event: { preventDefault: () => void; }) => {
     event.preventDefault();
 
     const data = {
