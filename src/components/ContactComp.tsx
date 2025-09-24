@@ -121,7 +121,11 @@ export default function ContactComp() {
                 </motion.div>
 
                 <h1 className='text-3xl opacity-80 font-sans font-bold text-[#ffffffc4] mb-[0.3rem] '>Get in touch</h1>
-                <p className='text-[0.8rem] opacity-60 font-sans text-[#ffffffc4] '>Have questions or ready to move your <br />business to the next level?</p>
+                <div className='flex flex-row '>
+                  <p className='text-[0.8rem] opacity-60 font-sans text-[#ffffffc4] '>Have questions or ready to move your <br />business to the next level?</p>
+
+
+                </div>
             </div>
 
             <div className='flex flex-col mt-[1rem]'>
