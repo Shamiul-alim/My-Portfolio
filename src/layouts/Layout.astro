@@ -12,14 +12,16 @@ import Navbar from '@/components/Navbar';
 		<meta name="generator" content={Astro.generator} />
 		<title>Shamiul Alim</title>
 	</head>
-	<body class="bg-[#000000eb] flex justify-center gap-[1.05rem] pt-[1rem]">
-		<div>
-			<Profile client:load/>
+	<body class="bg-[#000000eb] ">
+		<div class="flex flex-col justify-center sm:flex-row  gap-[1rem] pt-[1rem] min-h-screen">
+			<div class="flex justify-center " >
+				<Profile client:load/>
+			</div>
+			<div class="bg-[#23222285] h-screen sm:h-[96vh] pb-[3rem] sm:pb-0 w-full sm:w-[35rem] border-1 border-gray-800 rounded-2xl font-sans ">
+				<Navbar  client:only="react" />
+				<slot />
+			</div> 
 		</div>
-		<div class="bg-[#23222285] h-[42.5rem] w-[35rem] border-1 border-gray-800 rounded-2xl font-sans ">
-			<Navbar  client:only="react" />
-			<slot />
-		</div> 
 	</body>
 </html>
 

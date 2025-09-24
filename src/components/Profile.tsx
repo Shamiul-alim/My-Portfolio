@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 export default function profile() {
   return (
     <div>
-      <div className="bg-[#23222285] h-[30rem] w-[11rem] border-1 border-gray-800 rounded-2xl flex flex-col items-center shadow-lg shadow-[#000000a7]">
+      <div className="bg-[#23222285] sm:visible h-[68vh] w-[11rem] sm:w-[] border-1 border-gray-800 rounded-2xl flex flex-col items-center shadow-lg shadow-[#000000a7]">
 			<div className="bg-[#3a3939cf] h-[7rem] w-[7rem] rounded-3xl mt-[2.3rem] mb-[1rem]">
 				<img className='p-[0.4rem]' src={Data.profileImage}/>
 			</div>
