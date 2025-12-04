@@ -1,6 +1,11 @@
 {
   "projects": [
     {
+      "title": "Event Buddy",
+      "description": "Event Buddy is a full-stack event booking system built with Next.js, NestJS, TypeScript, and PostgreSQL, featuring secure JWT authentication.",
+      "link": "https://github.com/Shamiul-alim/Event-Buddy"
+    },
+    {
       "title": "Text-Util",
       "description": "TextUtils is a simple React-based text utility app that allows users to analyze and manipulate text.",
       "link": "https://github.com/Shamiul-alim/TextUtils"

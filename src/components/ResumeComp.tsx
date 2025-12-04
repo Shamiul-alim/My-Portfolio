@@ -18,7 +18,7 @@ export default function ResumeComp() {
         </p>
 
       <motion.a
-        href="/Resume.pdf" 
+        href="/Resume.pdf"
         download
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.95 }}
